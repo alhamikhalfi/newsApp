@@ -218,16 +218,16 @@ class _HomePageState extends State<HomePage> {
                                                   color: Colors.grey,
                                                   fontSize: 12),
                                             ),
-                                            Text(
-                                              article.publishedAt!.day
-                                                      .toString() ??
-                                                  "no text",
-                                              maxLines: 3,
-                                              overflow: TextOverflow.ellipsis,
-                                              style: TextStyle(
-                                                  color: Colors.grey,
-                                                  fontSize: 12),
-                                            ),
+                                            // Text(
+                                            //   article.publishedAt!.day
+                                            //           .toString() ??
+                                            //       "no text",
+                                            //   maxLines: 3,
+                                            //   overflow: TextOverflow.ellipsis,
+                                            //   style: TextStyle(
+                                            //       color: Colors.grey,
+                                            //       fontSize: 12),
+                                            // ),
                                           ],
                                         ),
                                       ),

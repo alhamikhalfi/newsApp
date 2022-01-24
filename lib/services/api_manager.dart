@@ -10,7 +10,7 @@ class API_manager {
     var client = http.Client();
     var topnewsModel;
     try {
-      var response = await client.get(Uri.parse(Strings.top_news));
+      var response = await client.get(Uri.parse('https://newsapi.org/v2/everything?category=sport&language=en&sortBy=popularity&apiKey=d28393faa351489fba5dc2578609c39b'));
       if (response.statusCode == 200) {
         var jsonString = response.body;
         var jsonMap = jsonDecode(jsonString);
@@ -24,7 +24,7 @@ class API_manager {
       return topnewsModel;
     }
 
-    return topnewsModel;
+    return topnewsModel ?? 'error';
   }
 
  
