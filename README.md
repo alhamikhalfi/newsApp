@@ -1,4 +1,6 @@
-My exercise about howw to use News API with flutter framework
+My exercise about how to use News API with flutter framework
+
+API: newsapi.org
 
 
 
